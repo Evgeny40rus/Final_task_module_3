@@ -1,8 +1,6 @@
 ﻿using System;
-
-
-    class MainClass
-    {
+class MainClass
+ {
         public static void Main(string[] args)
         {
         Console.Write("Введите имя:");
@@ -19,5 +17,4 @@
 
         Console.ReadKey();
         }
-    }
 }
