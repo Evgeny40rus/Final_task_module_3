@@ -13,6 +13,11 @@
 
         Console.WriteLine("Ваше имя {0} и Ваш возраст {1}", name, age);
 
+        Console.Write("Ваш день рожденья:");
+        var birthdate = Console.ReadLine();
+        Console.WriteLine("Ваш день рожденья " + birthdate);
+
+        Console.ReadKey();
         }
     }
 }
